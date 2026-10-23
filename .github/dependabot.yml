@@ -1,0 +1,8 @@
+# Monthly update PRs for the GitHub Actions of the workflows (the package has no
+# npm dependency).
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
